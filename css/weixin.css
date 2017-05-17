@@ -1,0 +1,227 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body{
+	overflow: auto;
+	font-family: "Microsoft Yahei";
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+/*网站总体样式*/
+.all_total1,.all_total2,.all_total3,.all_total4,.all_total5,.all_total6{
+	width: 100%;
+	height: 900px;
+}
+/*头部分开始*/
+    .header{
+    	background-image: url(../imgs/z.jpg);
+    }
+	/*导航栏开始*/
+
+	    .header nav{
+	    	width: 100%;
+	    	height: 60px;
+	    	background-color: lightgreen;
+	    	position: fixed;
+	    	top: 0;
+	    	z-index: 99;
+	    }
+	    .header nav .nav{
+	    	width: 1035px;
+	    	height: 60px;
+	    	margin: 0 auto;
+	    }
+	    .header nav .nav ul{
+	    	height: 60px;
+	    }
+	    .header nav .nav ul li{
+	    	display: inline-block;
+	    	padding-left: 25px;
+	        padding-right: 25px;
+	        float: left;
+	        line-height: 60px;
+	    }
+	    .header nav .nav ul li:nth-child(1){
+	    	padding-left: 0;
+	        padding-right: 0;
+	    }
+	/*头部下面*/
+	    .header_bot{
+	    	z-index: 60;
+	    }
+		.header .header_bottom{
+			width: 1310px;
+			height: 900px;
+			margin: 0 auto;
+			position: relative;
+		}
+		.header .header_bottom .headBot_left_img{
+			position: absolute;
+			bottom: 80px;
+			left: 0;
+			animation:leftImg 1s linear 0s both;
+			z-index: 50;
+		}
+		@-webkit-keyframes leftImg{
+			0%{
+				left: 0px;
+			}
+			100%{
+				left: 30px;
+			}
+		}
+		.bottomRight_topimg{
+			position: absolute;
+			left: 730px;
+			top: 35%;
+			animation:Right_topimg 2s linear 0s both;
+		}
+		@-webkit-keyframes Right_topimg{
+			0%{
+				opacity:0;
+			}
+			100%{
+				opacity: 1;
+			}
+		}
+		.bottomRight_centerimg{
+			position: absolute;
+			top: 55%;
+			left: 730px;
+			animation:Right_centerimg 2s linear 0s infinite;
+		}
+		@-webkit-keyframes Right_centerimg{
+			0%{
+				opacity:0;
+			}
+			50%{
+				opacity: 1;
+			}
+			100%{
+				opacity:0;
+			}
+		}
+    /*头部最下面开始*/
+        .header_bot_bot{
+        	width: 1440px;
+            height: 441px;
+            z-index: 10;
+            position: absolute;
+            top:455px;
+            left: 170px;
+        }
+        .img_b1_04{
+        	position: absolute;
+        	bottom: 0;
+        	right:180px;
+        	animation:img_b1_04 1s linear 0s both;
+        }
+        @-webkit-keyframes img_b1_04{
+        	0%{
+        		bottom: 0;
+        	}
+        	100%{
+        		bottom: 330px;
+        	}
+        }
+/*微信选择开始*/
+    .weixinChoose{
+    	background-image: url(../imgs/b2_bg.jpg);
+    }
+    .weixinChoose_center{
+    	width: 1310px;
+    	height: 900px;
+    	position: relative;
+    	margin: 0 auto;
+    	overflow: hidden;
+    }
+    .weixinChoose_center .b2_01{
+    	position: absolute;
+    	left: -220px;
+    	bottom: -628px;
+    	animation:b2_01 2s linear 0s both;
+    }
+    @-webkit-keyframes b2_01{
+    	0%{
+    		bottom: -628px;
+    	}
+    	100%{
+    		bottom:-30px;
+    	}
+    }
+    .weixinChoose_center .b2_03{
+    	position: absolute;
+    	left: 300px;
+    	top: 0px;
+    	animation:b2_03 2s linear 0s both;
+    }
+    @-webkit-keyframes b2_03{
+    	0%{
+    		top: 0;
+    	}
+    	100%{
+    		top: 300px;
+    	}
+    }
+    .weixinChoose_center .b2_04{
+    	position: absolute;
+    	left: 790px;
+    	top: 0px;
+    	animation:b2_04 2s linear 0s both;
+    }
+    @-webkit-keyframes b2_04{
+    	0%{
+    		top: 0;
+    	}
+    	100%{
+    		top: 400px;
+    	}
+    }
+    .weixinChoose_center .b2_05{
+    	position: absolute;
+    	left: 1000px;
+    	top: 0px;
+    	animation:b2_05 2s linear 0s both;
+    }
+    @-webkit-keyframes b2_05{
+    	0%{
+    		top: 0;
+    	}
+    	100%{
+    		top: 420px;
+    	}
+    }
+    .weixinChoose_word{
+    	position: absolute;
+    	left: 630px;
+    	top: 360px;
+    	color: white;
+    }
+    .weixinChoose_word .title{
+    	font-size: 28px;
+    }
+    .weixinChoose_word .content{
+    	font-size: 13px;
+    }
+
