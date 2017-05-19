@@ -374,3 +374,184 @@ ul,ol{
         }
     }
 
+/*服务优势*/
+    .service{
+        background-image: url(../imgs/b4_bg.jpg);
+        position: relative;
+    }
+    .service_box{
+        width: 1310px;
+        height: 900px;
+        margin: 0 auto;
+        position: relative; 
+        color: white;
+    }
+    .service_box h5{
+        margin-bottom: 5px;
+    }
+    .service_box .service_words{
+        font-size: 13px;
+    }
+    .service_box .service_words h5{
+        font-size: 20px;
+    }
+    .service_box .service_words1{
+        font-size: 32px;
+        width: 200px;
+        color: white;
+        position: absolute;
+        left: 200px;
+        top: 600px;
+        animation:service_words1 1s linear 0s 1 alternate forwards;
+    }
+    @-webkit-keyframes service_words1{
+        0%{
+            top: 800px;
+        }
+        100%{
+            top: 200px;
+        }
+    }
+    .service_box .service_words2{
+        position: absolute;
+        left: 200px;
+        top: 920px;
+        animation:service_words2 1s linear 0.1s 1 alternate forwards;
+    }
+    @-webkit-keyframes service_words2{
+        0%{
+            top: 920px;
+        }
+        100%{
+            top: 300px;
+        }
+    }
+    .service_box .service_words3{
+        position: absolute;
+        left: 200px;
+        top: 1000px;
+        animation:service_words3 1s linear 0.2s 1 alternate forwards;
+    }
+    @-webkit-keyframes service_words3{
+        0%{
+            top:1000px;
+        }
+        100%{
+            top: 360px;
+        }
+    }
+    .service_box .service_words4{
+        position: absolute;
+        left: 200px;
+        top:1080px;
+        animation:service_words4 1s linear 0.3s 1 alternate forwards;
+    }
+    @-webkit-keyframes service_words4{
+        0%{
+            top: 1080px;
+        }
+        100%{
+            top: 420px;
+        }
+    }
+    .service_box .service_words5{
+        position: absolute;
+        left: 200px;
+        top: 1160px;
+        animation:service_words5 1s linear 0.4s 1 alternate forwards;
+    }
+    @-webkit-keyframes service_words5{
+        0%{
+            top: 1160px;
+        }
+        100%{
+            top: 480px;
+        }
+    }
+    .service_box .service_words6{
+        position: absolute;
+        left: 200px;
+        top: 1240px;
+        animation:service_words6 1s linear 0.5s 1 alternate forwards;
+    }
+    @-webkit-keyframes service_words6{
+        0%{
+            top: 1240px;
+        }
+        100%{
+            top: 540px;
+        }
+    }
+    .service_box .service_words7{
+        position: absolute;
+        left: 200px;
+        top: 1320px;
+        animation:service_words7 1s linear 0.6s 1 alternate forwards;
+    }
+    @-webkit-keyframes service_words7{
+        0%{
+            top: 1320px;
+        }
+        100%{
+            top: 600px;
+        }
+    }
+    .service_box .sercice_img1{
+        position: absolute;
+        left: 900px;
+        top: 200px;
+        animation:sercice_img1 2s linear 0s 1 alternate forwards;
+    }
+    @-webkit-keyframes sercice_img1{
+        0%{
+            left: 900px;
+        }
+        100%{
+            left: 650px;
+        }
+    }
+    .service_box .sercice_img2{
+        position: absolute;
+        left: 900px;
+        top: 200px;
+        opacity: 0;
+        animation:sercice_img2 1s linear 1s 1 alternate forwards;
+    }
+    @-webkit-keyframes sercice_img2{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+/*特色功能*/
+     .feature{
+        background-image: url(../imgs/b5_bg.jpg);
+        position: relative;
+    }
+    .feature_center{
+        width: 1310px;
+        height: 900px;
+        margin: 0 auto;
+        position: relative; 
+       
+    }
+    .feature_center .feature_topwords{
+        width: 850px;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 160px;
+        margin-left: -425px;
+        color: rgb(188,188,188);
+        padding-bottom: 10px; 
+    }
+    .feature_center .feature_topwords .topwords_big{
+        font-size: 32px;
+        color: rgb(102,102,102); 
+        padding-bottom: 10px;
+    }
+    .feature_center .feature_topwords .topwords_big span{
+        color: rgb(254, 160, 5);
+    }
