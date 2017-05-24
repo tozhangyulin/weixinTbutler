@@ -29,7 +29,7 @@ ul,ol{
 	list-style: none;
 }
 /*网站总体样式*/
-.all_total1,.all_total2,.all_total3,.all_total4,.all_total5,.all_total6{
+.all_total{
 	width: 100%;
 	height: 900px;
 }
@@ -554,4 +554,303 @@ ul,ol{
     }
     .feature_center .feature_topwords .topwords_big span{
         color: rgb(254, 160, 5);
+    }
+    #featureImg{
+        width: 870px;
+        border: 1px solid red;
+        border-bottom: 0;
+        border-left: 0;
+        border-right: 0;
+        position: absolute;
+        left: 50%;
+        top: 250px;
+        margin-left: -435px;
+        padding: 0 50px;
+        padding-top:10px; 
+    }
+    #featureImg .tureImgli{
+        float: left;
+        width: 185px;
+        height: 154px;
+        display: block;
+        position: relative;
+        border: 1px solid green;
+        margin: 10px 15px;
+        border-radius: 5px;
+    }
+    #featureImg .tureImgli .liAImg{
+        position: absolute;
+        left: 50%;
+        margin-left: -44px;
+    }
+    #featureImg .tureImgli .liAImgBusiness{
+        position: relative;
+        top: 88px;
+        text-align: center;
+        color: black;
+        font-size: 20px;
+    }
+    #featureImg .tureImgli .liAImgWords{
+        position: relative;
+        top:90px;
+        text-align: center;
+        font-size: 0.8em;
+        color: rgb(119, 119, 119);
+    }
+    #featureImg .tureImgli .liAImgWords2{
+        position: relative;
+        top:90px;
+        text-align: center;
+        font-size: 0.8em;
+        color: rgb(119, 119, 119);
+    }
+    .feature_center ul li:nth-child(1){
+        position: relative;
+        top: 177px;
+        animation:featureTop 1s linear 0s 1 alternate forwards;
+
+    }
+    .feature_center ul li:nth-child(1){
+        position: relative;
+        top: 177px;
+        animation:featureTop 2s linear 0s 1 alternate forwards;
+
+    }
+    .feature_center ul li:nth-child(2){
+        position: relative;
+        top: 177px;
+        animation:featureTop 2s linear 0s 1 alternate forwards;
+
+    }
+    .feature_center ul li:nth-child(3){
+        position: relative;
+        top: 177px;
+        animation:featureTop 2s linear 0s 1 alternate forwards;
+
+    }
+    .feature_center ul li:nth-child(4){
+        position: relative;
+        top: 177px;
+        animation:featureTop 2s linear 0s 1 alternate forwards;
+
+    }
+    @-webkit-keyframes featureTop{
+        0%{
+            top:177px;
+        }
+        100%{
+            top: 0;
+        }
+    }
+    .feature_center ul li:nth-child(5){
+        position: relative;
+        opacity: 0;
+        animation:featureCenter 1s linear 1s 1 alternate forwards;
+
+    }
+    .feature_center ul li:nth-child(6){
+        position: relative;
+        opacity: 0;
+        animation:featureCenter 1s linear 1s 1 alternate forwards;
+
+    }    .feature_center ul li:nth-child(7){
+        position: relative;
+        opacity: 0;
+        animation:featureCenter 1s linear 1s 1 alternate forwards;
+
+    }
+    .feature_center ul li:nth-child(8){
+        position: relative;
+        opacity: 0;
+        animation:featureCenter 1s linear 1s 1 alternate forwards;
+
+    }
+    @-webkit-keyframes featureCenter{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .feature_center ul li:nth-child(9){
+        position: relative;
+        bottom: 177px;
+        animation:featureBottom 2s linear 0s 1 alternate forwards;
+
+    }
+    .feature_center ul li:nth-child(10){
+        position: relative;
+        bottom: 177px;
+        animation:featureBottom 2s linear 0s 1 alternate forwards;
+
+    }
+    .feature_center ul li:nth-child(11){
+        position: relative;
+        bottom: 177px;
+        animation:featureBottom 2s linear 0s 1 alternate forwards;
+
+    }
+    .feature_center ul li:nth-child(12){
+        position: relative;
+        bottom: 177px;
+        animation:featureBottom 2s linear 0s 1 alternate forwards;
+
+    }
+    @-webkit-keyframes featureBottom{
+        0%{
+            bottom: 177px;
+        }
+        100%{
+            bottom: 0;
+        }
+    }
+/*技术特点*/
+    .technology{
+        background-image: url(../imgs/b6_bg.jpg);
+    }
+    .technology_center{
+        width: 1310px;
+        height: 900px;
+        margin: 0 auto;
+        position: relative;
+        color: white;
+        overflow: hidden;
+    }
+    .technology_center .technology_words{
+        position: absolute;
+        left: 250px;
+        top: 200px;
+        opacity: 0;
+        animation:technologyOpacity 1s linear 0s 1 alternate forwards;
+
+    }
+    @-webkit-keyframes technologyOpacity{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .technology_center .technology_words p:nth-child(1){
+        font-size: 32px;
+    }
+    .technology_center .technology_img{
+        width: 533px;
+        height: 423px;
+        position: absolute;
+        left: 50%;
+        top: 300px;
+        opacity: 0;
+        margin-left: -266px;
+        background: url(../imgs/b6_img.png);  
+        animation:technologyOpacity 1s linear 0s 1 alternate forwards;      
+    }
+    .technology_center .technology_img span{
+        position: absolute;
+    }
+    .technology_center .technology_img span:nth-child(1){
+        left: 144px;
+        top: -5px;
+    }
+    .technology_center .technology_img span:nth-child(2){
+        left: 377px;
+        top: -5px;
+    }
+    .technology_center .technology_img span:nth-child(3){
+        left: 520px;
+        top: 139px;
+    }
+    .technology_center .technology_img span:nth-child(4){
+        left: 470px;
+        top: 322px;
+    }
+    .technology_center .technology_img span:nth-child(5){
+        left: 262px;
+        top: 403px;
+    }
+    .technology_center .technology_img span:nth-child(6){
+        left: 51px;
+        top: 322px;
+    }
+    .technology_center .technology_img span:nth-child(7){
+        left: 3px;
+        top: 141px;
+    }
+    .technology_center .technology_img .rain{
+        width: 40px;
+        height: 35px;
+        position: absolute;
+        left: 250px;
+        top: 120px;
+        overflow: hidden;
+    }
+    .technology_center .technology_img .rain .rain_up{
+        width: 15px;
+        height: 35px;
+        float: left;
+        opacity: 0;
+        position: relative;
+        background: url(../imgs/b6_arrow.png) 0px 0px;
+        animation:technologyrainup 2s linear 3s infinite forwards;  
+    }
+    .technology_center .technology_img .rain .rain_down{
+        width: 15px;
+        height: 35px;
+        float: right;
+        opacity: 0;
+        position: relative;
+        background: url(../imgs/b6_arrow.png) -14px 0px;
+        animation:technologyraindown 2s linear 3s infinite forwards; 
+    }
+    @-webkit-keyframes technologyrainup{
+        0%{
+            bottom: 0;
+            opacity: 0;
+        }
+        1%{
+            bottom: 0;
+            opacity: 1;
+        }
+        99%{
+            bottom: 40px;
+            opacity: 1;
+        }
+        100%{
+            bottom: 40px;
+            opacity: 0;
+        }
+    }
+    @-webkit-keyframes technologyraindown{
+        0%{
+            top: 0px;
+            opacity: 0;
+        }
+        1%{
+            top: 0px;
+            opacity: 1;
+        }
+        99%{
+            top: 40px;
+            opacity: 1;
+        }
+        100%{
+            top: 40px;
+            opacity: 0;
+        }
+    }
+    .technology_center .technology_head{
+        position: absolute;
+        right: 800px;
+        top: 550px;
+        animation:technology_center 3s ease-out 0s 1 forwards; 
+    }
+    @-webkit-keyframes technology_center{
+        0%{
+            right: 800px;
+        }
+        100%{
+            right: 50px;
+        }
     }
